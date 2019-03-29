@@ -1,0 +1,17 @@
+/.rtp2_cache
+/.yarn-cache
+/coverage
+/test
+/.babelrc
+/.editorconfig
+/.eslintignore
+/.eslintrc
+/.prettierrc
+/.travis.yml
+/.yarnrc
+/.yarnrc.example
+/commitlint.config.js
+/jest.config.js
+/jest.setup.js
+/rollup.config.js
+/yarn.lock
