@@ -189,6 +189,12 @@ $RECYCLE.BIN/
 
 ### Custom ###
 
+# Create React App
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Yarn
 .pnp.js
 .pnp
@@ -203,3 +209,4 @@ coverage/
 dist/
 es/
 lib/
+build/

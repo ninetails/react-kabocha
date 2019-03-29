@@ -1,6 +1,7 @@
 /.rtp2_cache
 /.yarn-cache
 /coverage
+/examples
 /test
 /.babelrc
 /.editorconfig

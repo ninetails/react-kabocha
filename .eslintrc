@@ -32,9 +32,14 @@
   },
   "overrides": [
     {
-      "files": ["*.test.js", "*.spec.js"],
+      "files": ["*.test.{js,jsx,ts,tsx}", "*.spec.{js,jsx,ts,tsx}"],
       "rules": {
-        "jest/no-jest-import": "error"
+        "jest/no-jest-import": "error",
+        "react/display-name": "off",
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          { "allowExpressions": true }
+        ]
       }
     },
     {
